@@ -1,7 +1,7 @@
 package analyzer
 
 import (
-	"barz-sc-audit-tool/parser"
+	"github.com/HarryBarz/barz-sc-audit-tool/parser"
 )
 
 type Vulnerability struct {
