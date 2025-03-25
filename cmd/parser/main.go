@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"barz-sc-audit-tool/analyzer"
-	"barz-sc-audit-tool/parser"
-	"barz-sc-audit-tool/reporter"
+	"github.com/HarryBarz/barz-sc-audit-tool/analyzer"
+	"github.com/HarryBarz/barz-sc-audit-tool/parser"
+	"github.com/HarryBarz/barz-sc-audit-tool/reporter"
 )
 
 func main() {
