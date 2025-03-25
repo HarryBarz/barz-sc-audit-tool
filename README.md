@@ -22,3 +22,25 @@ I'm actively working on:
 
 🤝 **We welcome contributions!**   
 ⚠️ **Note**: This project is in evolution phase - expect frequent changes to code structure and interfaces.
+
+
+### Install Dependencies
+```bash
+# Install Solidity compiler
+sudo apt-get install solc
+
+# Install Go dependencies
+go mod tidy
+```
+
+### Build & Run
+```bash
+# Build the tool
+go build -o barz-sc-audit cmd/main.go
+
+# Analyze contracts (text report)
+./barz-sc-audit --path testdata/contracts --output text
+
+# Analyze contracts (JSON report)
+./barz-sc-audit --path testdata/contracts --output json
+```
