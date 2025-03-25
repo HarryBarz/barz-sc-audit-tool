@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"barz-sc-audit-tool/analyzer"
+	"github.com/HarryBarz/barz-sc-audit-tool/analyzer"
 )
 
 func GenerateTextReport(vulns []analyzer.Vulnerability) {
